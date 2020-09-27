@@ -55,7 +55,7 @@ The goals of this challenge :
 
 ## Challenge_Summary:
 
-#### (1)Credit Risk Resampling Techniques:
+#### (1)Resampling:
 
 
 In this section, I compared oversampling,Undersampling &Combine algorithms to determine which algorithm results in the best performance.I did oversample the data using the naive random oversampling algorithm and the SMOTE algorithm.and I used undersampling the data using Cluster Centroids algorithm and Combination  data using the SMOTEENN algorithm For each algorithm.
@@ -106,6 +106,11 @@ For Analysis, I used resample the data using the SMOTEENN algorithm .I got count
 ![combine](https://user-images.githubusercontent.com/65969608/94352885-43bfb700-0030-11eb-93e1-8d55f4c6db2c.png)
 
 
+
+
+###### Conclusion_For_Resampling:
+
+
 #### (2)Extension:
 
 
@@ -132,5 +137,15 @@ For Analysis,I used Easy Ensemble AdaBoost Classifier.I trained  the model using
 
 
 ![Easy Ensemble AdaBoost Classifier](https://user-images.githubusercontent.com/65969608/94352838-92208600-002f-11eb-9dfb-de689f8041d9.png)
+
+
+#####  Conclusion_For_Extension:
+
+
+
+
+
+
+## Conclusion for compare Resampling & Extension:
 
 
