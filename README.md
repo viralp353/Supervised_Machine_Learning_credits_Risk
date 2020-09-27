@@ -1,4 +1,10 @@
-# Supervised_Machine_Learning_credits_Risk
+   # Supervised_Machine_Learning_credits_Risk
+
+
+
+
+   ![credit-cards-4-](https://user-images.githubusercontent.com/65969608/94353630-e2501600-0038-11eb-8040-3982b3cc2e36.jpg)
+
 
 
 ## Background:
@@ -103,8 +109,14 @@ For Analysis, I used resample the data using the SMOTEENN algorithm .I got count
 #### (2)Extension:
 
 
+For the extension, I did  train and compare two different ensemble classifiers to predict loan risk and evaluate each models.
+
+
 
 ##### Balanced Random Forest Classifier:
+
+For Analysis,I used Balanced Random Forest Classifier.I trained  the model using the training data.I got 0.78 balanced accuracy score. Based on confusion matrix,I got (TRUE POSITIVE:58),(FALSE NEGATIVE:29),(FALSE POSITIVE:1560),(TRUE NEGATIVE:15558).For imbalanced_classification_report, We see that on table.
+
 
 
 ![Balanced Random Forest Classifier](https://user-images.githubusercontent.com/65969608/94352800-2a6a3b00-002f-11eb-84c9-ae67cda330c2.png)
@@ -114,6 +126,10 @@ For Analysis, I used resample the data using the SMOTEENN algorithm .I got count
 
 
 ##### Easy Ensemble AdaBoost Classifier:
+
+
+For Analysis,I used Easy Ensemble AdaBoost Classifier.I trained  the model using the training data.I got 0.92 balanced accuracy score. Based on confusion matrix,I got (TRUE POSITIVE:79),(FALSE NEGATIVE:8),(FALSE POSITIVE:979),(TRUE NEGATIVE:16139).For imbalanced_classification_report, We see that on table.
+
 
 ![Easy Ensemble AdaBoost Classifier](https://user-images.githubusercontent.com/65969608/94352838-92208600-002f-11eb-9dfb-de689f8041d9.png)
 
