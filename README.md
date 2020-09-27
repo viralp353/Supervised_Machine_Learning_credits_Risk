@@ -47,3 +47,41 @@ The goals of this challenge :
 
 
 
+## Challenge_Summary:
+
+
+*  Balanced Random Forest Classifier:
+
+
+![Balanced Random Forest Classifier](https://user-images.githubusercontent.com/65969608/94352800-2a6a3b00-002f-11eb-84c9-ae67cda330c2.png)
+
+
+
+
+
+
+* Easy Ensemble AdaBoost Classifier:
+
+![Easy Ensemble AdaBoost Classifier](https://user-images.githubusercontent.com/65969608/94352838-92208600-002f-11eb-9dfb-de689f8041d9.png)
+
+
+
+* Naive Random Oversampling:
+
+![Naive Random Oversampling](https://user-images.githubusercontent.com/65969608/94352869-f5121d00-002f-11eb-93e9-cea69ac2956d.png)
+
+
+*  SMOTE Oversampling:
+
+![SMOTE Oversampling](https://user-images.githubusercontent.com/65969608/94352872-0eb36480-0030-11eb-9394-0ce1dba4388b.png)
+
+
+*  Undersampling:
+
+![cluster](https://user-images.githubusercontent.com/65969608/94352878-2a1e6f80-0030-11eb-9ed0-1bb6278aa349.png)
+
+
+*  Combination (Over and Under) Sampling:
+
+![combine](https://user-images.githubusercontent.com/65969608/94352885-43bfb700-0030-11eb-93e1-8d55f4c6db2c.png)
+
