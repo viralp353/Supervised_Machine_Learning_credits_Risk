@@ -108,7 +108,7 @@ For Analysis, I used resample the data using the SMOTEENN algorithm .I got count
 
 
 
-###### Conclusion_For_Resampling:
+#####  Conclusion_For_Resampling:
 
 
 Based on  Conclusion_For_Resampling,We could tell that Naive Random Oversampling would be better then other because the accuracy, 0.66 is high then other, and the precision and recall are good then others enough state that Naive Random Oversampling  would be best. 
