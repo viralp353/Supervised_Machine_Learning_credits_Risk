@@ -64,7 +64,7 @@ In this section, I compared oversampling,Undersampling &Combine algorithms to de
 #####  Naive Random Oversampling:
 
 
-For Analysis, I used oversample the data using the naive random oversampling algorithm.I got count of the target classes like (low_risk: 51352) & (high_risk: 260 ).Then I used the resampled data to train a logistic regression model.I got  0.66 balanced accuracy score. Based on confusion matrix,I got (TRUE POSITIVE:57),(FALSE NEGATIVE:30),(FALSE POSITIVE:5694),(TRUE NEGATIVE:11424).For imbalanced_classification_report, We see that on table.
+For Analysis, I used oversample the data using the naive random oversampling algorithm.I got count of the target classes like (low_risk: 51352) & (high_risk: 260 ).Then I used the resampled data to train a logistic regression model.I got  0.66 balanced accuracy score. Based on confusion matrix,I got (TRUE POSITIVE:57),(FALSE NEGATIVE:30),(FALSE POSITIVE:5694),(TRUE NEGATIVE:11424).For imbalanced_classification_report, We could see that on table.
 
 
 ![Naive Random Oversampling](https://user-images.githubusercontent.com/65969608/94352869-f5121d00-002f-11eb-93e9-cea69ac2956d.png)
@@ -77,7 +77,7 @@ For Analysis, I used oversample the data using the naive random oversampling alg
 ##### SMOTE Oversampling:
 
 
-For Analysis, I used oversample the data using the SMOTE Oversampling algorithm.I got count of the target classes like (low_risk: 51352) & (high_risk: 260 ).Then I used the resampled data to train a logistic regression model.I got  0.63 balanced accuracy score. Based on confusion matrix,I got (TRUE POSITIVE:54),(FALSE NEGATIVE:33),(FALSE POSITIVE:6163),(TRUE NEGATIVE:10955).For imbalanced_classification_report, We see that on table.
+For Analysis, I used oversample the data using the SMOTE Oversampling algorithm.I got count of the target classes like (low_risk: 51352) & (high_risk: 260 ).Then I used the resampled data to train a logistic regression model.I got  0.63 balanced accuracy score. Based on confusion matrix,I got (TRUE POSITIVE:54),(FALSE NEGATIVE:33),(FALSE POSITIVE:6163),(TRUE NEGATIVE:10955).For imbalanced_classification_report, We could see that on table.
 
 
 
@@ -89,7 +89,7 @@ For Analysis, I used oversample the data using the SMOTE Oversampling algorithm.
 
 ##### Undersampling:
 
-For Analysis, I used undersample the data using the Cluster Centroids algorithm .I got count of the target classes like (low_risk: 260) & (high_risk: 260 ).Then I used the resampled data to train a logistic regression model.I got  0.52 balanced accuracy score. Based on confusion matrix,I got (TRUE POSITIVE:56),(FALSE NEGATIVE:31),(FALSE POSITIVE:10221),(TRUE NEGATIVE:6897).For imbalanced_classification_report, We see that on table.
+For Analysis, I used undersample the data using the Cluster Centroids algorithm .I got count of the target classes like (low_risk: 260) & (high_risk: 260 ).Then I used the resampled data to train a logistic regression model.I got  0.52 balanced accuracy score. Based on confusion matrix,I got (TRUE POSITIVE:56),(FALSE NEGATIVE:31),(FALSE POSITIVE:10221),(TRUE NEGATIVE:6897).For imbalanced_classification_report, We  could see that on table.
 
 
 ![cluster](https://user-images.githubusercontent.com/65969608/94352900-779adc80-0030-11eb-9e3c-970018b3659a.png)
@@ -98,7 +98,7 @@ For Analysis, I used undersample the data using the Cluster Centroids algorithm 
 ##### Combination (Over and Under) Sampling:
 
 
-For Analysis, I used resample the data using the SMOTEENN algorithm .I got count of the target classes like (low_risk: 68460) & (high_risk: 62011 ).Then I used the resampled data to train a logistic regression model.I got  0.63 balanced accuracy score. Based on confusion matrix,I got (TRUE POSITIVE:61),(FALSE NEGATIVE:26),(FALSE POSITIVE:7294),(TRUE NEGATIVE:9824).For imbalanced_classification_report, We see that on table.
+For Analysis, I used resample the data using the SMOTEENN algorithm .I got count of the target classes like (low_risk: 68460) & (high_risk: 62011 ).Then I used the resampled data to train a logistic regression model.I got  0.63 balanced accuracy score. Based on confusion matrix,I got (TRUE POSITIVE:61),(FALSE NEGATIVE:26),(FALSE POSITIVE:7294),(TRUE NEGATIVE:9824).For imbalanced_classification_report, We could see that on table.
 
 
 
@@ -111,6 +111,9 @@ For Analysis, I used resample the data using the SMOTEENN algorithm .I got count
 ###### Conclusion_For_Resampling:
 
 
+Based on  Conclusion_For_Resampling,We could tell that Naive Random Oversampling would be better then other because the accuracy, 0.66 is high then other, and the precision and recall are good enough state that Naive Random Oversampling  would be best. 
+
+
 #### (2)Extension:
 
 
@@ -120,7 +123,7 @@ For the extension, I did  train and compare two different ensemble classifiers t
 
 ##### Balanced Random Forest Classifier:
 
-For Analysis,I used Balanced Random Forest Classifier.I trained  the model using the training data.I got 0.78 balanced accuracy score. Based on confusion matrix,I got (TRUE POSITIVE:58),(FALSE NEGATIVE:29),(FALSE POSITIVE:1560),(TRUE NEGATIVE:15558).For imbalanced_classification_report, We see that on table.
+For Analysis,I used Balanced Random Forest Classifier.I trained  the model using the training data.I got 0.78 balanced accuracy score. Based on confusion matrix,I got (TRUE POSITIVE:58),(FALSE NEGATIVE:29),(FALSE POSITIVE:1560),(TRUE NEGATIVE:15558).For imbalanced_classification_report, We could see that on table.
 
 
 
@@ -133,7 +136,7 @@ For Analysis,I used Balanced Random Forest Classifier.I trained  the model using
 ##### Easy Ensemble AdaBoost Classifier:
 
 
-For Analysis,I used Easy Ensemble AdaBoost Classifier.I trained  the model using the training data.I got 0.92 balanced accuracy score. Based on confusion matrix,I got (TRUE POSITIVE:79),(FALSE NEGATIVE:8),(FALSE POSITIVE:979),(TRUE NEGATIVE:16139).For imbalanced_classification_report, We see that on table.
+For Analysis,I used Easy Ensemble AdaBoost Classifier.I trained  the model using the training data.I got 0.92 balanced accuracy score. Based on confusion matrix,I got (TRUE POSITIVE:79),(FALSE NEGATIVE:8),(FALSE POSITIVE:979),(TRUE NEGATIVE:16139).For imbalanced_classification_report, We could see that on table.
 
 
 ![Easy Ensemble AdaBoost Classifier](https://user-images.githubusercontent.com/65969608/94352838-92208600-002f-11eb-9dfb-de689f8041d9.png)
@@ -142,10 +145,17 @@ For Analysis,I used Easy Ensemble AdaBoost Classifier.I trained  the model using
 #####  Conclusion_For_Extension:
 
 
+In Conclusion for Extension, Balanced Random Forest Classifier may not be the best  because the accuracy, 0.78, is low, and the precision and recall are not good enough to state that the ensemble classifiers  will be good.On see on another ensemble classifiers ,Easy Ensemble AdaBoost Classifier is good because the accuracy, 0.92  is high, and the precision and recall are good enough state that the model wiil be good then Balanced Random Forest Classifier.
 
 
 
 
-## Conclusion for compare Resampling & Extension:
+
+
+## Conclusion based on compare Resampling & Extension:
+
+
+ Based on compare  Resampling & Extension,I would suggest that Easy Ensemble AdaBoost Classifier is good because the accuracy, 0.92  is high, and the precision and recall are good enough state that the model wiil be good then Naive Random Oversampling.
+
 
 
