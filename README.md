@@ -78,7 +78,7 @@ The goals of this challenge :
 
 *  Undersampling:
 
-![cluster](https://user-images.githubusercontent.com/65969608/94352878-2a1e6f80-0030-11eb-9ed0-1bb6278aa349.png)
+![cluster](https://user-images.githubusercontent.com/65969608/94352900-779adc80-0030-11eb-9e3c-970018b3659a.png)
 
 
 *  Combination (Over and Under) Sampling:
