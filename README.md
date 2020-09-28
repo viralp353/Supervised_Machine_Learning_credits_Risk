@@ -155,7 +155,7 @@ In Conclusion for Extension, Balanced Random Forest Classifier may not be the be
 ## Conclusion based on compare Resampling & Extension:
 
 
- Based on compare  Resampling & Extension,I would suggest that Easy Ensemble AdaBoost Classifier is good because the accuracy, 0.92  is high, and the precision and recall are good enough state that the model wiil be good then Naive Random Oversampling.
+ Based on compare  Resampling & Extension,I would suggest that Easy Ensemble AdaBoost Classifier is good because the accuracy, 0.92  is high, and the precision and recall are good enough state that the model wiil be good then Naive Random Oversampling.I would suggest that  Easy Ensemble AdaBoost Classifier is good technique use for credik risk.
 
 
 
